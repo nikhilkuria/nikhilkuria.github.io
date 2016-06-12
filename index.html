@@ -7,7 +7,7 @@ layout: landing
 							<h2>{{ site.title }}</h2>
 							<p>{{ site.description | markdownify }}</p>
 							<ul class="actions">
-								<li><a href="#" class="button special">contact</a></li>
+								<li><a href="#Contact" class="button special">contact</a></li>
 							</ul>
 						</div>
 						<a href="#one" class="more scrolly">Learn More</a>
@@ -18,7 +18,9 @@ layout: landing
 						<div class="inner">
 							<header class="major">
 								<h2>About me</h2>
-								<p>Add some information about me here</p>
+								<p>I am a developer with more than 6 years of experience. I have been part of multiple teams developing highly scalable web applications.
+								   I love coding and I work on a few hobby projects. Outside of development, I love distance running, swimming and reading.
+								</p>
 							</header>
 							<ul class="icons">
 								{% for socloc in site.social %}
@@ -41,25 +43,23 @@ layout: landing
 						<div class="inner">
 							<header class="major">
 								<h2>Projects</h2>
-								<p>Add an intro on my projects</p>
 							</header>
 							<ul class="features">
 								<li class="icon fa-paper-plane-o">
-									<h3>graphXML</h3>
-									<p>Library to transform xml documents to neo4j graph objects.</p>
+								  <a href = "https://github.com/nikhilkuria/xmlGraph" target="_blank"><h3>graphXML</h3></a>
+									<p>Library to transform xml documents to neo4j graph objects. Graph Objects can be traversed or sarched using Cypher</p>
 								</li>
 								<li class="icon fa-laptop">
-									<h3>Markup Hydra</h3>
+									<a href = "https://github.com/nikhilkuria/MarkupHydra" target="_blank"><h3>Markup Hydra</h3><a>
 									<p>Library to easily create markup scripts. Can be used to easily create HTML and XML output reports.</p>
 								</li>
 								<li class="icon fa-asterisk">
-									<h3>neo4j Graph Gists</h3>
-									<p>neo4j scripts to generate graph database of family trees</p>
+									<a href = "https://github.com/nikhilkuria/gists" target="_blank"><h3>neo4j Graph Gists</h3></a>
+									<p>neo4j scripts to generate graph database of family trees. Currently implemented for Marquez's Buendia Family and the Gandhi family.</p>
 								</li>
 								<li class="icon fa-bullseye">
 									<h3>Nike Visualization</h3>
-									<p>Javascript framework to create rich components using Nike+ Running Data</p>
-								</li>
+									<p>Javascript framework to create rich component out of your Nike training data</p>
 							</ul>
 						</div>
 					</section>
@@ -69,10 +69,25 @@ layout: landing
 						<div class="inner">
 							<header>
 								<h2>Blog</h2>
-								<p>I use my Wordpress Blog as a cheat sheet and cookbook.</p>
+								<p>I use my Wordpress Blog as a cheat sheet and cookbook.I blog about Git, Java, Algorithms among many other things
+							</br>Feel free to put in your rants and suggestions in the comments</p>
 							</header>
 							<ul class="actions vertical">
-								<li><a href="#" class="button fit special">Visit</a></li>
+								<li><a href="{{site.wordpress}}" class="button fit special">Visit</a></li>
 							</ul>
+						</div>
+					</section>
+
+					<a name ="Contact">
+					<!-- Marker -->
+					</a>
+					<section id="one" class="wrapper style2 special">
+						<div class="inner">
+							<header>
+								<h2>Contact</h2>
+								<p>You can drop me an email at nikhilkuria@gmail.com
+								</br>You can also mention or DM me on <a href="{{site.social.twitter}}">Twitter</a>.
+								</br> Or you can send me an inMail on <a href="{{site.social.linkedin}}">linkedIn</a></p>
+							</header>
 						</div>
 					</section>
