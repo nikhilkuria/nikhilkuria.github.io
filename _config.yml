@@ -5,17 +5,18 @@
 title: nikhil kuriakose
 description: |
   Frontend/Backend Developer, India
-owner: Your Name # or company name
+owner: nikhil kuriakose # or company name
 first_published: 2016 # if migrating another site, the year of your first publish
 fist_job: Aug 2010
 email: your-email@domain.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
+wordpress: https://supercompiler.wordpress.com
 social:
-  email: nikhilkuria@gmail.com
-  twitter: https://twitter.com/<username>
-  github: https://github.com/<username>
-  linkedin-square: https://linkedin.com/in/<username>
+  #email: nikhilkuria@gmail.com
+  twitter: https://twitter.com/nikhilkuria
+  github: https://github.com/nikhilkuria
+  linkedin-square: https://in.linkedin.com/in/nikhil-kuriakose-0a98a02b
   #flickr:
   #instagram:
   #youtube-square:
